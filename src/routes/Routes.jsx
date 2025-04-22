@@ -46,9 +46,7 @@ const router = createBrowserRouter(
       ],
     },
   ],
-  {
-    basename: "/lawyer-appoinment",
-  }
+
 );
 
 export default router;
