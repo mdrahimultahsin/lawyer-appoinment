@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:wght@800&display=swap");
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-primary: "Mulish", sans-serif;
+  --font-logo: "Plus Jakarta Sans", sans-serif;
+  --color-primary-color: #0ea106;
+  --color-primary-text:#0F0F0F70;
+  --color-gradiesh-color:#0F0F0F80
+}
+
+*{
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/KpxJcyfy/lawyer-01-optimized-250.jpg",
+    "name": "Adv. Tanvir Hasan",
+    "speciality": "Criminal Law",
+    "experience": "7 years",
+    "licenseNumber": "BD-CR-1023",
+    "fee": "৳1500",
+    "availability": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/0RT0x3M9/lawyer-02-optimized-250.jpg",
+    "name": "Adv. Nayeem Ashraf",
+    "speciality": "Family Law",
+    "experience": "5 years",
+    "licenseNumber": "BD-FM-1102",
+    "fee": "৳1200",
+    "availability": ["Monday", "Wednesday", "Saturday"]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/rRLsBZk6/lawyer-03-optimized-250.jpg",
+    "name": "Adv. Rafiq Islam",
+    "speciality": "Property Law",
+    "experience": "10 years",
+    "licenseNumber": "BD-PL-0987",
+    "fee": "৳2000",
+    "availability": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
+  },
+
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/1G88V5qn/lawyer-04.jpg",
+    "name": "Adv. Tamim Haider",
+    "speciality": "Immigration Law",
+    "experience": "4 years",
+    "licenseNumber": "BD-IM-1156",
+    "fee": "৳1800",
+    "availability": ["Friday"]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/vvDckYQh/lawyer-05.jpg",
+    "name": "Adv. Mahmud Karim",
+    "speciality": "Corporate Law",
+    "experience": "8 years",
+    "licenseNumber": "BD-CO-1201",
+    "fee": "৳2500",
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/C31cBXbx/lawyer-06.jpg",
+    "name": "Adv. Shadman Islam",
+    "speciality": "Civil Law",
+    "experience": "6 years",
+    "licenseNumber": "BD-CV-1074",
+    "fee": "৳1300",
+    "availability": ["Sunday", "Tuesday", "Thursday", "Saturday"]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/2Yp1ztdP/lawyer-07.jpg",
+    "name": "Adv. Jubayer Rahman",
+    "speciality": "Labor Law",
+    "experience": "9 years",
+    "licenseNumber": "BD-LB-1145",
+    "fee": "৳1700",
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/XkdSX83y/lawyer-08.jpg",
+    "name": "Adv. Farzan Kabir",
+    "speciality": "Tax Law",
+    "experience": "11 years",
+    "licenseNumber": "BD-TX-1010",
+    "fee": "৳2200",
+    "availability": [
+      "Tuesday",
+      "Wednesday",
+      "Saturday",
+      "Sunday",
+      "Friday",
+      "Monday"
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/cXpQ7gtt/lawyer-9-jpg.jpg",
+    "name": "Adv. Imran Hossain",
+    "speciality": "Cyber Law",
+    "experience": "3 years",
+    "licenseNumber": "BD-CY-1198",
+    "fee": "৳1600",
+    "availability": ["Monday"]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/N2Zrcgnp/lawyer-10.jpg",
+    "name": "Adv. Riyan Parag",
+    "speciality": "Environmental Law",
+    "experience": "6 years",
+    "licenseNumber": "BD-EN-1066",
+    "fee": "৳1400",
+    "availability": ["Wednesday", "Thursday", "Saturday"]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/4R7qyTpx/lawyer-11.jpg",
+    "name": "Adv. Arif Mahbub",
+    "speciality": "Insurance Law",
+    "experience": "5 years",
+    "licenseNumber": "BD-IN-1093",
+    "fee": "৳1500",
+    "availability": ["Tuesday", "Wednesday", "Thursday", "Friday"]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/JF3QXj9k/lawyer-12.jpg",
+    "name": "Adv. Sami Rahman",
+    "speciality": "Constitutional Law",
+    "experience": "7 years",
+    "licenseNumber": "BD-CT-1189",
+    "fee": "৳2100",
+    "availability": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ]
+  }
+]
