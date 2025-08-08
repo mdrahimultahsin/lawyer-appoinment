@@ -12,7 +12,7 @@ A responsive and feature-rich React application that enables users to browse, vi
 
 ## 📸 Screenshot
 
-![Lawyer Booking Website Screenshot](/lawyer.png)  
+![Lawyer Booking Website Screenshot](./lawer.png)  
 
 
 ---
