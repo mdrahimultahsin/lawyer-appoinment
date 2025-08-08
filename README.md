@@ -1,155 +1,100 @@
-⚖️ Lawyer Booking Website
-A responsive and feature-rich React application that enables users to browse, view details, and book appointments with professional lawyers.
+# ⚖️ Lawyer Booking Website
 
-🚀 Live Demo
-Live Site: http://law-bd.surge.sh/
+A responsive and feature-rich React application that enables users to browse, view details, and book appointments with professional lawyers seamlessly.
 
-✅ Main Features
-➤ Navbar
+---
 
-Displays site logo and name.
+## 🌐 Live Demo
 
-Includes 4 navigation menu items.
+[Live Site](http://law-bd.surge.sh/)
 
-Features a right-aligned button.
+---
 
-Visible on all pages, including the error page.​
+## 📸 Screenshot
 
-➤ Footer
+![Lawyer Booking Website Screenshot](./screenshot.png)  
+*Add a screenshot image file named `screenshot.png` in your project root or appropriate folder.*
 
-Center-aligned logo.
+---
 
-Navigation menu items.
+## 🧰 Technologies Used
 
-4 social media icons linking to personal profiles.
+- React.js
+- React Router DOM
+- Context API / localStorage for state management
+- React Toastify (for notifications)
+- Recharts (data visualization)
+- react-countup (counting animations)
+- Tailwind CSS / Custom CSS (or specify your styling)
+- Surge.sh (for hosting/deployment)
 
-Displayed on all pages except error routes.​
+---
 
-➤ Homepage
+## 🚀 Core Features
 
-Banner section with heading and description.
+- **Navbar & Footer**  
+  Persistent navigation and footer with site branding, navigation links, and social media icons.
 
-Lawyers section displaying 6 lawyers in a 3x2 grid.
+- **Homepage**  
+  Banner with heading/description, featured lawyers grid, success metrics with animated counters.
 
-Each lawyer card includes image, name, specialty, experience, license number, and a "View Details" button.
+- **Lawyer Details Page**  
+  Detailed profile with availability, specialty, fees, and booking button with availability validation.
 
-Success section with 4 square cards featuring icons, numbers (with counting animation), and titles.​
+- **Booking System**  
+  Create and manage appointments with booking validation to prevent duplicates. Cancel appointments with updates reflected in charts.
 
-➤ Lawyer Details Page
+- **Bookings Page**  
+  View all booked appointments with cancel functionality. Persistent storage using localStorage or context.
 
-Top info card titled “Lawyer’s Profile Details” with a slogan.
+- **Blogs Page**  
+  Custom blog section covering React topics like useState, useEffect, custom hooks, forms, and more.
 
-Displays lawyer image, name, experience, specialty, fee, and availability.
+- **Error Handling**  
+  Custom 404 page and invalid dynamic route handling with friendly messages and navigation.
 
-Appointment card with availability badge and "Book Now" button.​
+- **Dynamic Title and Loading States**  
+  Page titles update dynamically based on current route. Loading animations on route changes and data fetches.
 
-➤ Booking Logic
+- **Data Visualization**  
+  Appointment fees visualized using Recharts with live updates on bookings.
 
-If appointment not already booked:
+---
 
-Creates new appointment.
+## 📦 Dependencies
 
-Shows success toast with lawyer’s name.
+- `react`
+- `react-router-dom`
+- `react-toastify`
+- `recharts`
+- `react-countup`
+- (Add any CSS framework or utility libraries used)
 
-Navigates user to Bookings page.
+---
 
-If already booked:
+## 🛠️ How to Run Locally
 
-Shows error toast.
+1. **Clone the repository:**
 
-Does not create duplicate booking.​
+   ```bash
+   git clone https://github.com/yourusername/lawyer-booking-website.git
+   cd lawyer-booking-website
+Install dependencies:
 
-➤ Bookings Page
+2.
+npm install
+# or
+yarn install
+Start the development server:
 
-Displays all booked appointments in a 1-column card format.
+2.
+npm run dev
 
-Each card shows lawyer name, fee, specialty, and a "Cancel Appointment" button.
+Open your browser and visit:
 
-If no appointments:
+http://localhost:3000
+Build for production:
 
-Displays a heading message.
-
-Shows a button to return to Homepage.
-
-Cancel button removes the appointment.
-
-Bookings persist after page reload using localStorage or context.​
-
-➤ Blogs Page
-
-Custom-designed blog page.
-
-Includes articles on:
-
-What is useState and how does it work in React?
-
-What is the purpose of useEffect in React?
-
-What is a custom hook in React and when should you use one?
-
-Difference between controlled and uncontrolled components. Which one is better?
-
-Tell us something about useFormStatus() in React.​
-GitHub
-+1
-Wikipedia
-+1
-
-➤ Error Page (404)
-
-Custom-designed error page for invalid routes.
-
-Includes Navbar.
-
-Footer is not displayed.
-
-Button to redirect the user to Homepage.​
-GitHub
-
-🧩 Aditional Features
-➤ Recharts Integration
-
-Visualizes appointment fees using Recharts.
-
-Canceling appointments updates the chart.
-
-Chart is not shown if no appointments exist.​
-
-➤ Counting Animation
-
-Uses react-countup for counting animation on the Homepage.​
-
-➤ Logo & Title
-
-Adds site logo and website title.​
-
-➤ Invalid Dynamic Routes Handling
-
-Displays error message when visiting invalid routes (e.g., /lawyer/invalid-id).​
-
-➤ Redirection & Loading States
-
-Shows a loading animation on every route change.
-
-App does not crash on page reload.
-
-Displays fallback loader during data fetch on any page reload.​
-
-✨ Enhanced Features
-➤ Validate Booking Based on Availability
-
-If today’s date doesn’t match lawyer’s availability:
-
-Shows “Lawyer is unavailable today”.
-
-Displays “Unavailable” badge on lawyer cards.​
-
-➤ Dynamic Title using useLocation()
-
-Changes title dynamically:
-
-Booking Page → Booking.
-
-Lawyer Details → Lawyer’s Name.
-
-Implemented without using third-party NPM packages.​
+npm run build
+# or
+yarn build
