@@ -13,7 +13,7 @@ A responsive and feature-rich React application that enables users to browse, vi
 ## 📸 Screenshot
 
 ![Lawyer Booking Website Screenshot](./lawyer.png)  
-*Add a screenshot image file named `screenshot.png` in your project root or appropriate folder.*
+
 
 ---
 
